@@ -32,7 +32,7 @@ The Temperature class is an abstract class with two abstract methods. Create the
 
 ### Convert Fahrenheit to Celsius
 
-\[ &deg;C = \frac{&deg;F - 32}{1.8} \]
+ &deg;C = (&deg;F - 32)/1.8
 
 ### Convert Celsius to Fahrenheit
 
