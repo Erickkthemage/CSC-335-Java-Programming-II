@@ -241,15 +241,15 @@ Create the following methods for the Subway class:
 ## Expected Output
 
 Use the examples below to test if your program is working as expected.
-- Boarding the Subway
+- **Boarding the Subway**
   If passengers is 220 and 45 people board the subway, then passengers would be 265.
-- Total Fares
+- **Total Fares**
   If 100 passengers, in total, have boarded the train, the totalFares would be 240.
-- Exiting the Subway
+- **Exiting the Subway**
   If passengers is 113 and 23 people exit the subway, then passengers would be 90.
-- Advancing the Subway
+- **Advancing the Subway**
   If the subway is currently at Kendall and is traveling South, advancing the subway would change currentStop to "Central" and direction would become "north". If the subway is currently at Porter and is traveling South, advancing the subway would change currentStop to Harvard and direction would remain "south".
-- Calculating Distance
+- **Calculating Distance**
   If the subway is currently at Davis and the desired stop is Central, the distance between them is 3 stops.
-- Changing the Fare
+- **Changing the Fare**
   If the subway fare increased to $2.75, then fare should be 2.75 for all instances of the Subway class.
