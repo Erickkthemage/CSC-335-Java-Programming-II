@@ -14,6 +14,7 @@ Create the Watch class following the conventions of encapsulation. The class sho
 - diameter - integer that represents (in millimeters) the diameter of the watch
 - waterResistance - integer that represents (in meters) the water resistance of the watch
 - material - string that represents what the watch is made of
+
 Each attribute has a getter and a setter. In addition, the method printWatch will return a multiline string that is a summary of the Watch instance.
 
 ## Expected Output
@@ -47,7 +48,8 @@ Create the Song class which represents a song on a streaming service. The class 
 - album - string representing the album on which the song appears
 - playCount - integer representing how many times the song has been played
 - payRate - a constant double that represents how much money the artist receives each time a song is played
-- moneyEarned a double representing how much money the song has earned the artist
+- moneyEarned - a double representing how much money the song has earned the artist
+
 All attributes should have a getter method, and all attributes except for payRate and moneyEarned should have a setter method. Use the Java convention for naming the getters and setters. Users should be able to call the play method which updates the playCount and moneyEarned attributes.
 
 ## Expected Output
@@ -79,6 +81,7 @@ Your program should produce the following output:
 
 Create the Atm class. This class has the attribute money that gets its value as an argument from the constructor.
 - money - double that represents the amount of money in the account
+
 This attribute should have a getter method, but not a setter. The class should have two method, deposit and withdrawal. The deposit method should contain data validation to check if the amount of money deposited is positive. Print a message if the data validation fails. The withdrawal method should check the data to see if there is enough money to withdraw and that the amount is positive. Print a message to the user if data validation fails.
 
 ## Expected Output
@@ -172,6 +175,7 @@ Create the class SodaMachine which sells soda. Assume that this machine only tak
 - spriteInventory - integer representing how many cans of Sprite are in the machine. Start with 20.
 - drPepperInventory - integer representing how many cans of Dr. Pepper are in the machine. Start with 20.
 - money - integer representing how much money is in the machine. Start with $10.
+
 Each attribute should have a getter and a setter. In addition, buySoda is a public method. This method takes a string that represents the type of soda to purchase and the amount of money inserted in the machine. The buySoda method should add the value of the soda ($2) to the money attribute and update the inventory the particular soda. It also needs to provide the following data validation:
 - Validate that the soda is sold by the machine; provide a message to the user.
 - Validate that the user inserted enough money; provide a message to the user.
