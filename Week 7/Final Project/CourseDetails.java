@@ -60,6 +60,7 @@ class CourseDetails implements Course {
         return staff;
     }
 
+    //prints out the details of the course including students taking the course, the faculty assigned to the course, and the staff assigned to the course as well as all of the information for each
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("Course: ").append(courseName).append("\n");
