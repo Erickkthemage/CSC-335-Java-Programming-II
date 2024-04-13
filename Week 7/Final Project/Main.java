@@ -49,7 +49,7 @@ public class Main {
         employees.add(new Staff("Izuku Midoriya", "123 Hero Academia St", "555-8205", "izuku@mail.com", "Room 1000", 10000, LocalDate.now()));
         
         //prints out list of each employee object and if it's a faculty member it prints the courses they teach. If it's a staff member it prints their titles
-        System.out.println("\nList of Employees:\n");
+        System.out.println("\nList of Employees:");
         List<Faculty> allFaculty = new ArrayList<Faculty>();
         List<Staff> allStaff = new ArrayList<Staff>();
         for (Employee emp : employees) {
