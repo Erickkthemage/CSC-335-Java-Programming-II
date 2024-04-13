@@ -37,16 +37,16 @@ public class Main {
         //creating a list of employees
         List<Employee> employees = new ArrayList<Employee>();
         //adding employee objects to the list
-        employees.add(new Faculty("Faculty 1", "Address 1", "Phone 1", "Email 1", "Office 1", 1000, LocalDate.now(), coursesTeaching));
-        employees.add(new Faculty("Faculty 2", "Address 2", "Phone 2", "Email 2", "Office 2", 2000, LocalDate.now(), coursesTeaching));
-        employees.add(new Faculty("Faculty 3", "Address 3", "Phone 3", "Email 3", "Office 3", 3000, LocalDate.now(), coursesTeaching));
-        employees.add(new Faculty("Faculty 4", "Address 4", "Phone 4", "Email 4", "Office 4", 4000, LocalDate.now(), coursesTeaching));
-        employees.add(new Faculty("Faculty 5", "Address 5", "Phone 5", "Email 5", "Office 5", 5000, LocalDate.now(), coursesTeaching));
-        employees.add(new Faculty("Faculty 6", "Address 6", "Phone 6", "Email 6", "Office 6", 6000, LocalDate.now(), coursesTeaching));
-        employees.add(new Staff("Staff 1", "Address 7", "Phone 7", "Email 7", "Office 7", 7000, LocalDate.now(), "Title 1"));
-        employees.add(new Staff("Staff 2", "Address 8", "Phone 8", "Email 8", "Office 8", 8000, LocalDate.now(), "Title 2"));
-        employees.add(new Staff("Staff 3", "Address 9", "Phone 9", "Email 9", "Office 9", 9000, LocalDate.now(), "Title 3"));
-        employees.add(new Staff("Staff 4", "Address 10", "Phone 10", "Email 10", "Office 10", 10000, LocalDate.now()));
+        employees.add(new Faculty("Fred Armisen", "123 SNL St", "555-2479", "fred@mail.com", "Room 101", 1000, LocalDate.now(), coursesTeaching));
+        employees.add(new Faculty("Scarlett Johansen", "123 Marvel Ave", "555-7510", "scarlett@mail.com", "Room 202", 2000, LocalDate.now(), coursesTeaching));
+        employees.add(new Faculty("Dwayne Johnson", "123 Rock St", "555-2050", "dwayne@mail.com", "Room 303", 3000, LocalDate.now(), coursesTeaching));
+        employees.add(new Faculty("Eva Longoria", "123 Television Bvd", "555-3856", "eva@mail.com", "Room 404", 4000, LocalDate.now(), coursesTeaching));
+        employees.add(new Faculty("Tom Hanks", "123 Castaway St", "555-4614", "tom@mail.com", "Room 505", 5000, LocalDate.now(), coursesTeaching));
+        employees.add(new Faculty("Monkey D. Luffy", "123 One Piece Ave", "555-2840", "monkey@mail.com", "Room 606", 6000, LocalDate.now(), coursesTeaching));
+        employees.add(new Staff("Sanji Vinsmoke", "234 One Pieve Bvd", "555-3850", "sanji@mail.com", "Room 707", 7000, LocalDate.now(), "Program Manager"));
+        employees.add(new Staff("Zoro Roronoa", "345 One Piece St", "555-1037", "zor@mail.com", "Room 808", 8000, LocalDate.now(), "Registrar"));
+        employees.add(new Staff("Robin Nico", "456 One Piece Rd", "555-1720", "robin@mail.com", "Room 909", 9000, LocalDate.now(), "Education Coordinator"));
+        employees.add(new Staff("Izuku Midoriya", "123 Hero Academia St", "555-8205", "izuku@mail.com", "Room 1000", 10000, LocalDate.now()));
         
         //prints out list of each employee object and if it's a faculty member it prints the courses they teach. If it's a staff member it prints their titles
         System.out.println("\nList of Employees:\n");
@@ -70,11 +70,11 @@ public class Main {
         } 
 
         //instantiating student objects
-        Student student1 = new Student("Student 1", "Address 1", "Phone 1", "Email 1", "Freshman"); 
-        Student student2 = new Student("Student 2", "Address 2", "Phone 2", "Email 2", "Freshman"); 
-        Student student3 = new Student("Student 3", "Address 3", "Phone 3", "Email 3", "Freshman"); 
-        Student student4 = new Student("Student 4", "Address 4", "Phone 4", "Email 4", "Senior"); 
-        Student student5 = new Student("Student 5", "Address 5", "Phone 5", "Email 5", "Junior"); 
+        Student student1 = new Student("Erick Diaz", "123 Cool St", "555-6149", "erick@mail.com", "Freshman"); 
+        Student student2 = new Student("Courtney Muni", "123 Awesome Ave", "555-0915", "courtney@mail.com", "Freshman"); 
+        Student student3 = new Student("Michael Gomez", "123 Far Bvd", "555-9164", "michael@mail.com", "Freshman"); 
+        Student student4 = new Student("Jordan Figueroa", "123 House St", "555-1238", "jordan@mail.com", "Senior"); 
+        Student student5 = new Student("Carolina Figueroa", "123 House St", "555-1468", "carolina@mail.com", "Junior"); 
         
         //creating a list of CourseDetails objects
         List<CourseDetails> coursesList = new ArrayList<CourseDetails>();
