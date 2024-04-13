@@ -1,4 +1,4 @@
-class Student extends Person implements Course {
+class Student extends Person {
     private final String CLASS_STATUS;
 
     public Student(String name, String address, String phoneNumber, String emailAddress, String classStatus) {
@@ -12,9 +12,5 @@ class Student extends Person implements Course {
 
     public String toString() {
         return getClass().getName() + "[name= " + getName() + "]";
-    }
-
-    public String getCourseName() {
-        return "Course for " + getName();
     }
 }
